@@ -12,7 +12,7 @@ data distribution function:
 	dist_...
 
 data/:
-	original dataset
+	original dataset (X), # kmeans centers (k), label mapped to 1 (v_label), label dimension (d_label), coreset size (coresetSize)
 results/:
 	machine learning algorithms (compute_ML.m calls other functions to compute several ML models)
 plots/:
