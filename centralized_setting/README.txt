@@ -8,7 +8,7 @@ total.m: overall driver
 coreset_construction/:
 	construct coresets
 data/:
-	original dataset
+	original dataset (X), label dimension (d_label), coreset size (coresetSize)
 results/:
 	machine learning algorithms (compute_ML.m calls other functions to compute several ML models)
 plots/:
